@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   position: relative;
   font-family: "Raleway", sans-serif;
@@ -20,6 +22,27 @@ body {
 #map {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
+ }
+
+ .navCallToAction {
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+   letter-spacing: 2.4px;
+   font-style: italic;
+   color: #ff0000 !important;
+ }
+
+ .topBar {
+   background: #FFF !important;
+   height: 22px;
+ }
+
+ .topBarText {
+   color: #ff0000 !important;
+   text-align: right;
+   padding-right: 17px;
+   font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
  }
 
 /* Custom */
