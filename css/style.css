@@ -19,6 +19,7 @@ body {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
 #map {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
@@ -44,6 +45,26 @@ body {
    font-family: 'Open Sans', sans-serif;
    text-transform: uppercase;
  }
+
+ .serviceAreaMap {
+   width: 480px;
+   height: 420px;
+   padding-bottom: 72px;
+ }
+
+ /* CUSTOM TABLE FOR SERVICE AREAS */
+ .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+.table-head {
+  font-weight: 700 !important;
+  padding: 15px;
+  color: #000;
+  background-color: #F0F3F8;
+  background-image: linear-gradient(to bottom, #FFFFFF 70%, #F0F3F8 98% );
+}
 
 /* Custom */
 #sub-header {
@@ -171,15 +192,6 @@ p {
   font-size: 14px;
   line-height: 2.2em;
   color: #444;
-}
-
-a {
-  text-decoration: none;
-  color: #444;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 a:hover {
