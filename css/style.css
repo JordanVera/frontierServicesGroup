@@ -22,8 +22,15 @@ body {
 
 #map {
   height: 400px;  /* The height is 400 pixels */
-  width: 100%;  /* The width is the width of the web page */
+  width: 72%;
+  margin: 32px 0;
  }
+
+ @media (max-width: 767px) {
+  #map {
+    width: 100%;
+  }
+}
 
  .navCallToAction {
    font-size: 18px;
@@ -45,6 +52,10 @@ body {
    font-family: 'Open Sans', sans-serif;
    text-transform: uppercase;
  }
+
+#serviceArea {
+  padding-top: 30px !important;
+}
 
  .serviceAreaMap {
    width: 480px;
